@@ -1,11 +1,10 @@
+<h1>Pup Pad - Patrulha Canina</h1>
 <p align="center">
-  <img src="Screenshot_20200508-163545605.jpg" width="450" />
+  <img src="Screenshot_20200508-163545605.jpg" width="460" />
 </p>
 
 <p align="center">
-Projeto inspirado no AirBNB, onde empresas de tecnologia podem disponibilizar espaços para profissionais trabalharem. Pela página web a empresa cadastra seus espaços disponíveis,
-fazendo upload de imagem, cadastrando valor do aluguel e com quais tecnologias ela trabalha. Pelo App mobile, o profissional pode visualizar os spots
-cadastrados e solicitar uma reserva no espaço desejado.<br>
+Projeto realizado pensando na minha filha, onde o App busca simular o tablet do personagem principal do desenho (Ryder) que ele utiliza para selecionar os filhotes que irão atender a uma missão.<br>
 
 <img src="GIF-200508_164148.gif" alt="example screenshot"/>
 
@@ -14,6 +13,7 @@ React-Native, Node.js, CleanCode e Boas práticas.
 </p><br/>
 
 <br/>
+<img src="Screenshot_20200508-163608170.jpg" width="460" />
 
 # Tecnologia e bibliotecas utilizadas
 
