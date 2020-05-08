@@ -1,23 +1,31 @@
 <p align="center">
-  <H1> App Pup Pad - Paw Patrol </H1>
+  <img src="mobile/src/assets/logo@2x.png" />
 </p>
 
 <p align="center">
-Projeto criado com intuito de estudo e aprendizagem de Javascript, HTML5, CSS3 e desenvolvimento app Android. Minha filha gosta muito do desenho Patrulha Canina e o objetivo é criar um
-app que simule o 'Pup Pad' (dispositivo tipo tablet do personagem principal) onde cada botão seleciona cada um dos filhotes.<br>
+Projeto inspirado no AirBNB, onde empresas de tecnologia podem disponibilizar espaços para profissionais trabalharem. Pela página web a empresa cadastra seus espaços disponíveis,
+fazendo upload de imagem, cadastrando valor do aluguel e com quais tecnologias ela trabalha. Pelo App mobile, o profissional pode visualizar os spots
+cadastrados e solicitar uma reserva no espaço desejado.<br>
 
-<img src="App Pup Pad Paw Patrol.png" alt="Pup Pad"/>
+<img src="AirCnC.jpg" alt="example screenshot"/>
 
->Print de tela do resultado do projeto.
-<br/>
-
+>Este projeto foi desenvolvido pela @Rocketseat na Semana OminStack 9.0. Durante o curso pude aprender bastante sobre JavaScript, React,
+React-Native, Node.js, CleanCode e Boas práticas.
+</p><br/>
 
 <br/>
 
 # Tecnologia e bibliotecas utilizadas
 
+- BackEnd
+  - Node.js, Express, Socket.io, MongoDB, Mongoose, Multer, Insomnia.
+
 - FrontEnd
-  - HTML5, CSS3 e Javascript.
+  - ES6, CSS3, React, API Rest, Socket.io-client, Axios.
+
+- Mobile
+  - React Native, Expo, Socket.io-client, Axios. 
+
 
 # Meta
   - Carlos Hiroshi Hayashi - @9caca - carlos.hiroshi.hayashi@gmail.com
