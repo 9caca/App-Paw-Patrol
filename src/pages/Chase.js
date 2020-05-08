@@ -1,6 +1,30 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-export default function Chase() {
-    return <View />
+import pupChase from '../assets/Chase.png';
+
+export default function Chase({ navigation }) {
+    return (
+        <View style={styles.container}>
+
+        <TouchableOpacity onPress={()=> navigation.navigate('Principal')}>
+            <Image source={pupChase} style = {styles.logo} />
+        </TouchableOpacity>
+        
+        </View>
+    );
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#ddd',
+    },
+    logo: {
+        width: 280,
+        height: 320,
+    },
+});

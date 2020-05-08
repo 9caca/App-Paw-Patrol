@@ -1,14 +1,14 @@
 import React from 'react';
 import { View, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-import pupSkye from '../assets/Skye.png';
+import pupEverest from '../assets/Everest.png';
 
-export default function Skye({ navigation }) {
+export default function Everest({ navigation }) {
     return (
         <View style={styles.container}>
 
         <TouchableOpacity onPress={()=> navigation.navigate('Principal')}>
-            <Image source={pupSkye} style = {styles.logo} />
+            <Image source={pupEverest} style = {styles.logo} />
         </TouchableOpacity>
         
         </View>

@@ -1,14 +1,14 @@
 import React from 'react';
 import { View, Image, StyleSheet, TouchableOpacity } from 'react-native';
 
-import pupSkye from '../assets/Skye.png';
+import pupTracker from '../assets/Tracker.png';
 
-export default function Skye({ navigation }) {
+export default function Tracker({ navigation }) {
     return (
         <View style={styles.container}>
 
         <TouchableOpacity onPress={()=> navigation.navigate('Principal')}>
-            <Image source={pupSkye} style = {styles.logo} />
+            <Image source={pupTracker} style = {styles.logo} />
         </TouchableOpacity>
         
         </View>

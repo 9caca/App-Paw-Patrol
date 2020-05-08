@@ -7,13 +7,25 @@ import SafeAreaView from 'react-native-safe-area-view';
 
 import Principal from './pages/Principal';
 import Chase from './pages/Chase';
+import Everest from './pages/Everest';
+import Marshal from './pages/Marshal';
+import Rocky from './pages/Rocky';
+import Rubble from './pages/Rubble';
 import Skye from './pages/Skye';
+import Tracker from './pages/Tracker';
+import Zuma from './pages/Zuma';
 
 const Routes = createAppContainer(
     createStackNavigator({
         Principal,
         Chase,
+        Everest,
+        Marshal,
+        Rocky,
+        Rubble,
         Skye,
+        Tracker,
+        Zuma,
     })
 );
 

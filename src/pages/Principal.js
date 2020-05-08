@@ -1,5 +1,5 @@
 import React from 'react';
-import { View , Image, StyleSheet, TouchableOpacity } from 'react-native';
+import { View , Text, Button ,Image, StyleSheet, TouchableOpacity } from 'react-native';
 
 import PupBadge from '../assets/PupBadge.png';
 import ChaseBadge from '../assets/ChaseBadge.png';
@@ -12,35 +12,28 @@ import TrackerBadge from '../assets/TrackerBadge.png';
 import ZumaBadge from '../assets/ZumaBadge.png';
 
 export default function Principal({ navigation }) {
+
     return (
         <View style={styles.container}>
-            <Image
-                style={styles.logo}
-                source={PupBadge}/>
-            <Image
-                style={styles.badges}
-                source={ChaseBadge}/>
-            <Image
-                style={styles.badges}
-                source={EverestBadge}/>
-            <Image
-                style={styles.badges}
-                source={MarshalBadge}/>
-            <Image
-                style={styles.badges}
-                source={RockyBadge}/>
-            <Image
-                style={styles.badges}
-                source={RubbleBadge}/>
-            <Image
-                style={styles.badges}
-                source={SkyeBadge}/>
-            <Image
-                style={styles.badges}
-                source={TrackerBadge}/>
-            <Image
-                style={styles.badges}
-                source={ZumaBadge}/>
+        
+            <Image source={PupBadge} style = {styles.logo} />
+        
+        <TouchableOpacity onPress={()=> navigation.navigate('Chase')}>
+            <Image style={styles.badges} source={ChaseBadge}/></TouchableOpacity>
+        <TouchableOpacity onPress={()=> navigation.navigate('Everest')}>
+            <Image style={styles.badges} source={EverestBadge}/></TouchableOpacity>
+        <TouchableOpacity onPress={()=> navigation.navigate('Marshal')}>
+            <Image style={styles.badges} source={MarshalBadge}/></TouchableOpacity>
+        <TouchableOpacity onPress={()=> navigation.navigate('Rocky')}>
+            <Image style={styles.badges} source={RockyBadge}/></TouchableOpacity>
+        <TouchableOpacity onPress={()=> navigation.navigate('Rubble')}>
+            <Image style={styles.badges} source={RubbleBadge}/></TouchableOpacity>
+        <TouchableOpacity onPress={()=> navigation.navigate('Skye')}>
+            <Image style={styles.badges} source={SkyeBadge}/></TouchableOpacity>
+        <TouchableOpacity onPress={()=> navigation.navigate('Tracker')}>
+            <Image style={styles.badges} source={TrackerBadge}/></TouchableOpacity>
+         <TouchableOpacity onPress={()=> navigation.navigate('Zuma')}>
+            <Image style={styles.badges} source={ZumaBadge}/></TouchableOpacity>
         </View>
     );
 }
@@ -62,5 +55,6 @@ const styles = StyleSheet.create({
     badges: {
         width: 70,
         height: 80,
-    }
-})
+    },
+});
+
