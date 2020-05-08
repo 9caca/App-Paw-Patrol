@@ -1,11 +1,9 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "Pup Pad - Patrulha Canina",
+    "slug": "Pup Pad - Patrulha Canina",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "landscape",

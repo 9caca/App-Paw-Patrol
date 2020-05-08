@@ -17,16 +17,61 @@ import Zuma from './pages/Zuma';
 
 const Routes = createAppContainer(
     createStackNavigator({
-        Principal,
-        Chase,
-        Everest,
-        Marshal,
-        Rocky,
-        Rubble,
-        Skye,
-        Tracker,
-        Zuma,
-    })
+        Principal: {
+            screen: Principal,
+            navigationOptions: {
+              header: null,
+            },
+        },
+        Chase: {
+            screen: Chase,
+            navigationOptions: {
+              header: null,
+            },
+        },
+        Everest: {
+            screen: Everest,
+            navigationOptions: {
+              header: null,
+            },
+        },
+        Marshal: {
+            screen: Marshal,
+            navigationOptions: {
+              header: null,
+            },
+        },
+        Rocky: {
+            screen: Rocky,
+            navigationOptions: {
+              header: null,
+            },
+        },
+        Rubble: {
+            screen: Rubble,
+            navigationOptions: {
+              header: null,
+            },
+        },
+        Skye: {
+            screen: Skye,
+            navigationOptions: {
+              header: null,
+            },
+        },
+        Tracker: {
+            screen: Tracker,
+            navigationOptions: {
+              header: null,
+            },
+        },
+        Zuma: {
+            screen: Zuma,
+            navigationOptions: {
+              header: null,
+            },
+        },
+    }),
 );
 
 export default Routes;
