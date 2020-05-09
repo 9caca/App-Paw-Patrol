@@ -14,7 +14,7 @@ O App é bem simples, possui uma tela inicial com os escudos que representam cad
 <br/>
 <p align="center">
 <img src="Screenshot_20200508-163608170.jpg" width="460" />
-</p
+</p>
 
 # Tecnologia e bibliotecas utilizadas
 
